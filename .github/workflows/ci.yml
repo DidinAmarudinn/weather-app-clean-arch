@@ -37,7 +37,7 @@ jobs:
       - run: flutter build ios --no-codesign
 
     build_apk:
-    name: Build flutter (Android)
+    name: Build androdid (Android)
     needs: [flutter_test]
     runs-on: ubuntu-latest
     steps:  
