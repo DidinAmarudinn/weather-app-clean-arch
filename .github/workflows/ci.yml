@@ -36,7 +36,7 @@ jobs:
       - run: flutter clean
       - run: flutter build ios --no-codesign
 
-    build_apk:
+  build_apk:
     name: Build androdid (Android)
     needs: [flutter_test]
     runs-on: ubuntu-latest
